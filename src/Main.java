@@ -2,13 +2,13 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        HugeInteger hi = new HugeInteger();
-        System.out.println(hi);
-        // testing sign
-        HugeInteger hi1 = new HugeInteger("34545234");
-        System.out.println(hi1);
-        HugeInteger hi2 = new HugeInteger("-2455434324344");
-        System.out.println(hi2);
+//        HugeInteger hi = new HugeInteger();
+//        System.out.println(hi);
+//        // testing sign
+//        HugeInteger hi1 = new HugeInteger("34545234");
+//        System.out.println(hi1);
+//        HugeInteger hi2 = new HugeInteger("-2455434324344");
+//        System.out.println(hi2);
 //        //testing leading zeros
 //        HugeInteger hi3 = new HugeInteger("000034545234");
 //        System.out.println(hi3);
@@ -31,6 +31,9 @@ public class Main {
 //        System.out.println(hi5.compareTo(hi4));
 //        System.out.println(hi2.compareTo(hi1));
 
+        HugeInteger test1 = new HugeInteger("-456");
+        HugeInteger test2 = new HugeInteger("-456");
+        System.out.println(test1.compareTo(test2));
 
     }
 }
